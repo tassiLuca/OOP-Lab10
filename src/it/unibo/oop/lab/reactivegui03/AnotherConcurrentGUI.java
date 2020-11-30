@@ -46,7 +46,6 @@ public class AnotherConcurrentGUI extends JFrame {
         stop.addActionListener(e -> agent.stopCounting());
         up.addActionListener(e -> agent.increaseCounting());
         down.addActionListener(e -> agent.decreaseCounting());
-
     }
 
     private class StopAgent implements Runnable {
